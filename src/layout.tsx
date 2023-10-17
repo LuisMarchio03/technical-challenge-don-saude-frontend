@@ -1,13 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Sidebar } from "./components/Sidebar";
-import { styled } from '@stitches/react';
-
-const Main = styled('main', {
-  width: 'calc(100vw - 160px)',
-  height: 'auto',
-  marginLeft: '120px',
-  background: 'red',
-})
+import { Main } from "./styles/layout";
 
 export function Layout() {
   return (
