@@ -211,3 +211,78 @@ export const Pagination = styled('div', {
     width: '8px',
   }
 })
+
+export const ModalOverlay = styled('div', {
+  width: '100vw',
+  height: '100vh',
+  background: 'rgba(0,0,0,0.5)',
+  position: 'fixed',
+  top: '0',
+  left: '0',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  zIndex: '9999',
+})
+
+export const Modal = styled('div', {
+  width: '600px',
+  height: '350px',
+  background: '#FFFFFF',
+  borderRadius: '20px',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent:'center',
+
+  gap: '30px'
+})
+
+export const ModalTitle = styled('h2', {
+  color: '#667085',
+  fontSize: '20px',
+  fontWeight: '700',
+  lineHeight: '29.26px',
+  textAlign: 'center',
+})
+
+export const ButtonsContainer = styled('div', {
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '20px',
+})
+
+export const ButtonCancel = styled('button', {
+  width: '200px',
+  height: '45px',
+
+  background: "#fff",
+  border: "1px solid #475467",
+  borderRadius: "20px",
+  color: "#475467",
+  padding: "10px",
+  fontSize: "18px",
+  fontWeight: "700",
+
+  cursor: 'pointer',
+})
+
+export const ButtonConfirm = styled('button', {
+  width: '200px',
+  height: '45px',
+
+  background: "#D0005E",
+  border: 0,
+  borderRadius: "20px",
+  color: "#FFFFFF",
+  padding: "10px",
+  fontSize: "18px",
+  fontWeight: "700",
+
+  cursor: 'pointer',
+})
+
+

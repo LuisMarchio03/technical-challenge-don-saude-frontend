@@ -132,8 +132,8 @@ export function CreateAssociate() {
               <Input 
                 placeholder="Digite a senha novamente"
                 type="password"
-                name="password"
-                id="password"
+                name="password_match"
+                id="password_match"
                 required
               />
             </InputContainer>
